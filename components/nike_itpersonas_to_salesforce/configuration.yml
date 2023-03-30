@@ -1,5 +1,7 @@
 description: This component is part of a workflow that transfers Nike IT Personas
   information to Salesforce. It receives a link to the source data as input and outputs
   a Success status (boolean) and an optional ErrorMessage (string) in case of errors.
+input-class: NikeITPersonasToSalesforceIn
 name: NikeITPersonasToSalesforce
+output-class: NikeITPersonasToSalesforceOut
 parameters: {}
